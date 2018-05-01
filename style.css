@@ -1,0 +1,45 @@
+text {
+    font-family: fa ;
+    width: 100%;
+    stroke: black;
+    fill: black;
+    font-size: 30px;
+    stroke-dasharray: 300% 300%;
+    stroke-width: 0.5px;
+    -webkit-animation: stroke-anim 5s linear;
+    animation: stroke-anim 5s linear;
+}
+
+@-webkit-keyframes stroke-anim {
+    0% {
+        stroke-dashoffset: 300%;
+        fill: transparent;
+    }
+
+    50% {
+        fill: transparent;
+    }
+
+
+    100% {
+        stroke-dashoffset: 0%;
+        fill: black;
+    }
+}
+
+@-webkit-keyframes stroke-anim {
+    0% {
+        stroke-dashoffset: 300%;
+        fill: transparent;
+    }
+
+    50% {
+        fill: transparent;
+    }
+
+
+    100% {
+        stroke-dashoffset: 0%;
+        fill: black;
+    }
+}
